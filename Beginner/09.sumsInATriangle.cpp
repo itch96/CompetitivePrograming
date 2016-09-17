@@ -1,6 +1,7 @@
 // Sums in a Triangle
-#include "stdio.h"
+#include <iostream>
 
-int main(int argc, char* argv[]) {
-
+int main(void) {
+	int t, n;
+	std::cout << "Enter the number of test cases";
 }
