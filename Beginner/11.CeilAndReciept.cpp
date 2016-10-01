@@ -32,5 +32,5 @@ void findDishes(int money) {
 	}
 
 //	std::cout << "\nDishes Ordered: " << count;
-	std::cout << count;
+	std::cout << count << std::endl;
 }
