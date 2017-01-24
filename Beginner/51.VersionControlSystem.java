@@ -46,7 +46,7 @@ class VCS {
         System.out.print(count + " ");
     }
     public static void untrackedUnignored(Set<Integer> UNIVERSAL, Set<Integer> IGNORED, Set<Integer> TRACKED) {
-        // union the IGNORED and TRACKED and then find the intersection of it with the UNIVERSAL
+        // union the IGNORED and TRACKED and then find the difference of it with the UNIVERSAL
         Set<Integer> mySet = new HashSet<Integer>();
         mySet.addAll(IGNORED);
         mySet.addAll(TRACKED);
