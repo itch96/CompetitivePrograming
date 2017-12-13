@@ -5,10 +5,12 @@ while T > 0 :
   A = list(map(int, input().split(' ')))
 
   count = N
-  for i in range(0, N - 1) :
-    j = i
-    while j < N - 1 and A[j] <= A[j + 1] :
-      count += 1
-      j += 1
-  
-  print(count)
+  i = 0
+  while i < N - 1 :
+    temp = 1
+    while i < N - 1 and A[i] <= A[i + 1] :
+      i += 1
+      temp += 1
+    i += 1
+    count += (temp * (temp - 1) / 2)
+  print(int(count))
