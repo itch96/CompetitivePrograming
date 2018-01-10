@@ -1,2 +1,2 @@
 # CompetitivePrograming
-To keep track of solved competitive programs from CodeChef
+To keep track of solved competitive programs and practice logical programming.
