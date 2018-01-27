@@ -30,5 +30,6 @@ function checkPermutation(str1, str2) {
 
 console.log(checkPermutation('hello', 'loehl')); // should output true
 console.log(checkPermutation('hello', 'loeha')); // should output false
+console.log(checkPermutation("god      ", 'dog')); // should output false
 
 // this is a O(n) solution.
